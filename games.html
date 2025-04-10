@@ -7,6 +7,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <script src="script.js" defer></script>
+
     </head>
     
     <body>
@@ -24,58 +25,12 @@
         </nav>
         <section id="games" class="games-page">
             <div class="games-grid">
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 1</h3>
-                    <p>A thrilling adventure awaits!</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 2</h3>
-                    <p>Test your puzzle-solving skills</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 3</h3>
-                    <p>Race against time</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 4</h3>
-                    <p>Explore new worlds</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 5</h3>
-                    <p>Strategy at its finest</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 6</h3>
-                    <p>Multiplayer madness</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 7</h3>
-                    <p>Classic arcade action</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 8</h3>
-                    <p>Mind-bending challenges</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 9</h3>
-                    <p>Epic battles ahead</p>
-                </div>
-                <div class="game-container">
-                    <div class="game-preview">Image Preview</div>
-                    <h3>Game 10</h3>
-                    <p>Relax and unwind</p>
-                </div>
             </div>
+            
         </section>
+        <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+  <script>eruda.init();</script>
+        
         <script>
         function updateTime() {
             const currentTime = new Date().toLocaleTimeString();
@@ -84,9 +39,7 @@
         }
         requestAnimationFrame(updateTime);
     </script>
-    <script src="/uv/uv.bundle.js"></script>
-    <script src="/uv/uv.config.js"></script>
-    <script src="/assets/register-sw.js"></script>
     <script src="/script.js" defer></script>
+    <script src="games.js"></script>
     </body>
 </html>

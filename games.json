@@ -2,7 +2,13 @@
     {
         "name": "Game",
         "description": "A thrilling adventure awaits!",
-        "image": "",
+        "image": "logo.png",
+        "link": ""
+    },
+    {
+        "name": "Game",
+        "description": "A thrilling adventure awaits!",
+        "image": "logo.png",
         "link": ""
     }
 ]
