@@ -1,0 +1,1 @@
+bro literally demoted me to a normal user and timed me out for 4 weeks for calling him a dumbass
